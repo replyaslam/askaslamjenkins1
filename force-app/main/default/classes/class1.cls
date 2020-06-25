@@ -1,5 +1,5 @@
 public class class1 {
-//test1
+//test1,test2
 
 Integer myInteger = 10;
 public void myMethod (Integer multiplier) {
