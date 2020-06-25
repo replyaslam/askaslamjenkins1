@@ -16,9 +16,9 @@
 		<members>*</members>
 		<name>ApexTestSuite</name>
 	</types>
-		<types>
+	<types>
 		<members>*</members>
-		<name>lwc</name>
+		<name>LightningBolt</name>
 	</types>
 	<types>
 		<members>*</members>
