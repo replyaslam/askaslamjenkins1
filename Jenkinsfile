@@ -54,21 +54,21 @@ JWT_KEY_CRED_ID='52e8269f-50fa-4054-a1b0-49448351c53f'  //this uses server.key f
 //CONNECTED_APP_CONSUMER_KEY='3MVG9sh10GGnD4Dt2J6frnovQpib7_3a4OqWLfDNeK_DeZUDBCc7t28hpBqObv38In8w2p3MKdD2xa9u8f7F0'  //this uses server.crt from Laptop1
 //CONNECTED_APP_CONSUMER_KEY='3MVG9sh10GGnD4Dt2J6frnovQphUDU7pg3OZsQBvAgFCZgwkSqDkh4WOQ6mwGue9rTQeQ24554C9.tdjqiPKp'  //this uses server.crt from Laptop2
     
-if(branchname.contains('develop')) { 
+if(branchname.toLowerCase().contains('develop')) { 
     //org1
     echo 'Develop branch here---------------------'
     SFDC_HOST='https://login.salesforce.com'
     HUB_ORG='replyamijenkins1@yahoo.com'
     CONNECTED_APP_CONSUMER_KEY='3MVG9xB_D1giir9ouqdpx6TLReZGNLSvnQPrlIUhn9d3LpPkwPmslUu8PjsPVAO6myXIqyttMQdpBi4ehe7yH'        
 } 
-else if(branchname.contains('UAT')) { 
+else if(branchname.toLowerCase().contains('sat')) { 
     //org2
     echo 'UAT branch here---------------------'    
     SFDC_HOST='https://login.salesforce.com'
     HUB_ORG='replyamijenkins2@yahoo.com'
     CONNECTED_APP_CONSUMER_KEY='3MVG9xB_D1giir9rQ28.ZSOZMNzgZfh656KIRFlQOEp9Beiq2xm8ue4dInQ0XlHUOfWnghEK1jcDtNTGyCG9y' //this uses server.crt from Laptop1
 } 
-else if(branchname.contains('SAT')) { 
+else if(branchname.toLowerCase().contains('uat')) { 
     //org3
     echo 'SAT branch here---------------------'    
     SFDC_HOST='https://login.salesforce.com'
