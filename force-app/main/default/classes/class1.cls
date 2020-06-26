@@ -1,5 +1,6 @@
 public class class1 {
 //test1,test2,test3
+//demo1 to WIcki
 
 Integer myInteger = 10;
 public void myMethod (Integer multiplier) {
